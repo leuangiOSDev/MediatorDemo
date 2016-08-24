@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70AFEB71D6D74A300B8A813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEB61D6D74A300B8A813 /* main.m */; };
+		C70AFEBA1D6D74A300B8A813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEB91D6D74A300B8A813 /* AppDelegate.m */; };
+		C70AFEBD1D6D74A300B8A813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEBC1D6D74A300B8A813 /* ViewController.m */; };
+		C70AFEC01D6D74A300B8A813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70AFEBE1D6D74A300B8A813 /* Main.storyboard */; };
+		C70AFEC21D6D74A300B8A813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70AFEC11D6D74A300B8A813 /* Assets.xcassets */; };
+		C70AFEC51D6D74A300B8A813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70AFEC31D6D74A300B8A813 /* LaunchScreen.storyboard */; };
+		C70AFED01D6D74A300B8A813 /* MediatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFECF1D6D74A300B8A813 /* MediatorDemoUITests.m */; };
+		C70AFEDE1D6D86C000B8A813 /* BaseMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEDD1D6D86C000B8A813 /* BaseMediator.m */; };
+		C70AFEE11D6D86E000B8A813 /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEE01D6D86E000B8A813 /* ConcreteMediator.m */; };
+		C70AFEE41D6D888C00B8A813 /* BaseColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEE31D6D888C00B8A813 /* BaseColleague.m */; };
+		C70AFEE71D6D88A000B8A813 /* ColleagueA.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEE61D6D88A000B8A813 /* ColleagueA.m */; };
+		C70AFEEA1D6D88A900B8A813 /* ColleagueB.m in Sources */ = {isa = PBXBuildFile; fileRef = C70AFEE91D6D88A900B8A813 /* ColleagueB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70AFECC1D6D74A300B8A813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70AFEAA1D6D74A300B8A813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70AFEB11D6D74A300B8A813;
+			remoteInfo = MediatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70AFEB21D6D74A300B8A813 /* MediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70AFEB61D6D74A300B8A813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C70AFEB81D6D74A300B8A813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C70AFEB91D6D74A300B8A813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C70AFEBB1D6D74A300B8A813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C70AFEBC1D6D74A300B8A813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C70AFEBF1D6D74A300B8A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70AFEC11D6D74A300B8A813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70AFEC41D6D74A300B8A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C70AFEC61D6D74A300B8A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70AFECB1D6D74A300B8A813 /* MediatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70AFECF1D6D74A300B8A813 /* MediatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorDemoUITests.m; sourceTree = "<group>"; };
+		C70AFED11D6D74A300B8A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70AFEDC1D6D86C000B8A813 /* BaseMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMediator.h; sourceTree = "<group>"; };
+		C70AFEDD1D6D86C000B8A813 /* BaseMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMediator.m; sourceTree = "<group>"; };
+		C70AFEDF1D6D86E000B8A813 /* ConcreteMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
+		C70AFEE01D6D86E000B8A813 /* ConcreteMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
+		C70AFEE21D6D888C00B8A813 /* BaseColleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseColleague.h; sourceTree = "<group>"; };
+		C70AFEE31D6D888C00B8A813 /* BaseColleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseColleague.m; sourceTree = "<group>"; };
+		C70AFEE51D6D88A000B8A813 /* ColleagueA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColleagueA.h; sourceTree = "<group>"; };
+		C70AFEE61D6D88A000B8A813 /* ColleagueA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColleagueA.m; sourceTree = "<group>"; };
+		C70AFEE81D6D88A900B8A813 /* ColleagueB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColleagueB.h; sourceTree = "<group>"; };
+		C70AFEE91D6D88A900B8A813 /* ColleagueB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColleagueB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70AFEAF1D6D74A300B8A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70AFEC81D6D74A300B8A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70AFEA91D6D74A300B8A813 = {
+			isa = PBXGroup;
+			children = (
+				C70AFEB41D6D74A300B8A813 /* MediatorDemo */,
+				C70AFECE1D6D74A300B8A813 /* MediatorDemoUITests */,
+				C70AFEB31D6D74A300B8A813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70AFEB31D6D74A300B8A813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70AFEB21D6D74A300B8A813 /* MediatorDemo.app */,
+				C70AFECB1D6D74A300B8A813 /* MediatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70AFEB41D6D74A300B8A813 /* MediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C70AFEDB1D6D757300B8A813 /* Mediator */,
+				C70AFEB81D6D74A300B8A813 /* AppDelegate.h */,
+				C70AFEB91D6D74A300B8A813 /* AppDelegate.m */,
+				C70AFEBB1D6D74A300B8A813 /* ViewController.h */,
+				C70AFEBC1D6D74A300B8A813 /* ViewController.m */,
+				C70AFEBE1D6D74A300B8A813 /* Main.storyboard */,
+				C70AFEC11D6D74A300B8A813 /* Assets.xcassets */,
+				C70AFEC31D6D74A300B8A813 /* LaunchScreen.storyboard */,
+				C70AFEC61D6D74A300B8A813 /* Info.plist */,
+				C70AFEB51D6D74A300B8A813 /* Supporting Files */,
+			);
+			path = MediatorDemo;
+			sourceTree = "<group>";
+		};
+		C70AFEB51D6D74A300B8A813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70AFEB61D6D74A300B8A813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C70AFECE1D6D74A300B8A813 /* MediatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C70AFECF1D6D74A300B8A813 /* MediatorDemoUITests.m */,
+				C70AFED11D6D74A300B8A813 /* Info.plist */,
+			);
+			path = MediatorDemoUITests;
+			sourceTree = "<group>";
+		};
+		C70AFEDB1D6D757300B8A813 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				C70AFEDC1D6D86C000B8A813 /* BaseMediator.h */,
+				C70AFEDD1D6D86C000B8A813 /* BaseMediator.m */,
+				C70AFEDF1D6D86E000B8A813 /* ConcreteMediator.h */,
+				C70AFEE01D6D86E000B8A813 /* ConcreteMediator.m */,
+				C70AFEE21D6D888C00B8A813 /* BaseColleague.h */,
+				C70AFEE31D6D888C00B8A813 /* BaseColleague.m */,
+				C70AFEE51D6D88A000B8A813 /* ColleagueA.h */,
+				C70AFEE61D6D88A000B8A813 /* ColleagueA.m */,
+				C70AFEE81D6D88A900B8A813 /* ColleagueB.h */,
+				C70AFEE91D6D88A900B8A813 /* ColleagueB.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70AFEB11D6D74A300B8A813 /* MediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70AFED41D6D74A300B8A813 /* Build configuration list for PBXNativeTarget "MediatorDemo" */;
+			buildPhases = (
+				C70AFEAE1D6D74A300B8A813 /* Sources */,
+				C70AFEAF1D6D74A300B8A813 /* Frameworks */,
+				C70AFEB01D6D74A300B8A813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediatorDemo;
+			productName = MediatorDemo;
+			productReference = C70AFEB21D6D74A300B8A813 /* MediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70AFECA1D6D74A300B8A813 /* MediatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70AFED71D6D74A300B8A813 /* Build configuration list for PBXNativeTarget "MediatorDemoUITests" */;
+			buildPhases = (
+				C70AFEC71D6D74A300B8A813 /* Sources */,
+				C70AFEC81D6D74A300B8A813 /* Frameworks */,
+				C70AFEC91D6D74A300B8A813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70AFECD1D6D74A300B8A813 /* PBXTargetDependency */,
+			);
+			name = MediatorDemoUITests;
+			productName = MediatorDemoUITests;
+			productReference = C70AFECB1D6D74A300B8A813 /* MediatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70AFEAA1D6D74A300B8A813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.leuang;
+				TargetAttributes = {
+					C70AFEB11D6D74A300B8A813 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C70AFECA1D6D74A300B8A813 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C70AFEB11D6D74A300B8A813;
+					};
+				};
+			};
+			buildConfigurationList = C70AFEAD1D6D74A300B8A813 /* Build configuration list for PBXProject "MediatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70AFEA91D6D74A300B8A813;
+			productRefGroup = C70AFEB31D6D74A300B8A813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70AFEB11D6D74A300B8A813 /* MediatorDemo */,
+				C70AFECA1D6D74A300B8A813 /* MediatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70AFEB01D6D74A300B8A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70AFEC51D6D74A300B8A813 /* LaunchScreen.storyboard in Resources */,
+				C70AFEC21D6D74A300B8A813 /* Assets.xcassets in Resources */,
+				C70AFEC01D6D74A300B8A813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70AFEC91D6D74A300B8A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70AFEAE1D6D74A300B8A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70AFEE41D6D888C00B8A813 /* BaseColleague.m in Sources */,
+				C70AFEBD1D6D74A300B8A813 /* ViewController.m in Sources */,
+				C70AFEEA1D6D88A900B8A813 /* ColleagueB.m in Sources */,
+				C70AFEDE1D6D86C000B8A813 /* BaseMediator.m in Sources */,
+				C70AFEBA1D6D74A300B8A813 /* AppDelegate.m in Sources */,
+				C70AFEE11D6D86E000B8A813 /* ConcreteMediator.m in Sources */,
+				C70AFEB71D6D74A300B8A813 /* main.m in Sources */,
+				C70AFEE71D6D88A000B8A813 /* ColleagueA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70AFEC71D6D74A300B8A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70AFED01D6D74A300B8A813 /* MediatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70AFECD1D6D74A300B8A813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70AFEB11D6D74A300B8A813 /* MediatorDemo */;
+			targetProxy = C70AFECC1D6D74A300B8A813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C70AFEBE1D6D74A300B8A813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70AFEBF1D6D74A300B8A813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70AFEC31D6D74A300B8A813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70AFEC41D6D74A300B8A813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C70AFED21D6D74A300B8A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70AFED31D6D74A300B8A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C70AFED51D6D74A300B8A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leuang.MediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C70AFED61D6D74A300B8A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediatorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leuang.MediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C70AFED81D6D74A300B8A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leuang.MediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediatorDemo;
+			};
+			name = Debug;
+		};
+		C70AFED91D6D74A300B8A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MediatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leuang.MediatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MediatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70AFEAD1D6D74A300B8A813 /* Build configuration list for PBXProject "MediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70AFED21D6D74A300B8A813 /* Debug */,
+				C70AFED31D6D74A300B8A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70AFED41D6D74A300B8A813 /* Build configuration list for PBXNativeTarget "MediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70AFED51D6D74A300B8A813 /* Debug */,
+				C70AFED61D6D74A300B8A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C70AFED71D6D74A300B8A813 /* Build configuration list for PBXNativeTarget "MediatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70AFED81D6D74A300B8A813 /* Debug */,
+				C70AFED91D6D74A300B8A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C70AFEAA1D6D74A300B8A813 /* Project object */;
+}
