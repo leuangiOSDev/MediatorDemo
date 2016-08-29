@@ -30,7 +30,7 @@
 
 
 #uml结构图
-![image](http://cmsblogs.qiniudn.com/wp-content/uploads/2014/01/2222_thumb.png)
+![image](https://github.com/leuangiOSDev/MediatorDemo/blob/master/MediatorUML.jpg)
 
 它主要包含如下几个角色：
 
